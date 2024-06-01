@@ -11,9 +11,13 @@
 </head>
 
 <body>
-    <livewire:counter />
+    {{-- <livewire:counter /> --}}
 
-        @livewireScripts
+    @livewire('user-search')
+
+    @livewireScripts
+
+    <script src="https://cdn.tailwindcss.com"></script>
 </body>
 
 </html>
